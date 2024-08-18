@@ -1,0 +1,24 @@
+[16.705s] Invoking command in '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yellow_ball_follower build --build-base /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build install --record /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/install.log --single-version-externally-managed install_data
+[20.141s] running egg_info
+[20.155s] writing ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/PKG-INFO
+[20.361s] writing dependency_links to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/dependency_links.txt
+[20.362s] writing entry points to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/entry_points.txt
+[20.370s] writing requirements to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/requires.txt
+[20.377s] writing top-level names to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/top_level.txt
+[20.387s] reading manifest file '../../build/yellow_ball_follower/yellow_ball_follower.egg-info/SOURCES.txt'
+[20.604s] writing manifest file '../../build/yellow_ball_follower/yellow_ball_follower.egg-info/SOURCES.txt'
+[20.649s] running build
+[20.650s] running build_py
+[20.661s] copying yellow_ball_follower/ball_tracker_node.py -> /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build/lib/yellow_ball_follower
+[20.700s] running install
+[20.715s] running install_lib
+[20.715s] copying /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build/lib/yellow_ball_follower/ball_tracker_node.py -> /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower
+[20.765s] byte-compiling /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower/ball_tracker_node.py to ball_tracker_node.cpython-310.pyc
+[20.804s] running install_data
+[20.952s] running install_egg_info
+[20.983s] removing '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower-0.0.0-py3.10.egg-info' (and everything under it)
+[20.983s] Copying ../../build/yellow_ball_follower/yellow_ball_follower.egg-info to /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower-0.0.0-py3.10.egg-info
+[21.055s] running install_scripts
+[21.501s] Installing ball_tracker_node script to /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/yellow_ball_follower
+[21.535s] writing list of installed files to '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/install.log'
+[21.798s] Invoked command in '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower' returned '0': PYTHONPATH=/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/yellow_ball_follower build --build-base /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build install --record /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/install.log --single-version-externally-managed install_data

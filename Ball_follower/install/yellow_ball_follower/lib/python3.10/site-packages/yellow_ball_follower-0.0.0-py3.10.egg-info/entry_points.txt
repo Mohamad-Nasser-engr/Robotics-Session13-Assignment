@@ -1,0 +1,3 @@
+[console_scripts]
+ball_tracker_node = yellow_ball_follower.ball_tracker_node:main
+
