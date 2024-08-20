@@ -92,7 +92,7 @@ class BallTrackerNode(Node):
         # Display the image and the mask
         cv2.imshow("Yellow Ball Tracking", cv_image)
         cv2.imshow("Masked Image", mask)
-        cv2.waitKey(1)
+        #cv2.waitKey(1)
 
 def main(args=None):
     rclpy.init(args=args)

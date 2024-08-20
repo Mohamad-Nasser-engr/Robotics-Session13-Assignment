@@ -1,0 +1,113 @@
+[0.000000] (-) TimerEvent: {}
+[0.000210] (yellow_ball_follower) JobQueued: {'identifier': 'yellow_ball_follower', 'dependencies': OrderedDict()}
+[0.000242] (yellow_ball_follower) JobStarted: {'identifier': 'yellow_ball_follower'}
+[0.096784] (-) TimerEvent: {}
+[0.213476] (-) TimerEvent: {}
+[0.338230] (-) TimerEvent: {}
+[0.472269] (-) TimerEvent: {}
+[0.607450] (-) TimerEvent: {}
+[0.709970] (-) TimerEvent: {}
+[0.814512] (-) TimerEvent: {}
+[0.922117] (-) TimerEvent: {}
+[1.026611] (-) TimerEvent: {}
+[1.132095] (-) TimerEvent: {}
+[1.235821] (-) TimerEvent: {}
+[1.341984] (-) TimerEvent: {}
+[1.469488] (-) TimerEvent: {}
+[1.592316] (-) TimerEvent: {}
+[1.694167] (-) TimerEvent: {}
+[1.801000] (-) TimerEvent: {}
+[1.920271] (-) TimerEvent: {}
+[2.037105] (-) TimerEvent: {}
+[2.141247] (-) TimerEvent: {}
+[2.242728] (-) TimerEvent: {}
+[2.343855] (-) TimerEvent: {}
+[2.461202] (-) TimerEvent: {}
+[2.569112] (-) TimerEvent: {}
+[2.672802] (-) TimerEvent: {}
+[2.840940] (-) TimerEvent: {}
+[2.942463] (-) TimerEvent: {}
+[3.047018] (-) TimerEvent: {}
+[3.151069] (-) TimerEvent: {}
+[3.251885] (-) TimerEvent: {}
+[3.353896] (-) TimerEvent: {}
+[3.457174] (-) TimerEvent: {}
+[3.568533] (-) TimerEvent: {}
+[3.675223] (-) TimerEvent: {}
+[3.779671] (-) TimerEvent: {}
+[3.883279] (-) TimerEvent: {}
+[3.985088] (-) TimerEvent: {}
+[4.085395] (-) TimerEvent: {}
+[4.188947] (-) TimerEvent: {}
+[4.292288] (-) TimerEvent: {}
+[4.419626] (-) TimerEvent: {}
+[4.527977] (-) TimerEvent: {}
+[4.636936] (-) TimerEvent: {}
+[4.738463] (-) TimerEvent: {}
+[4.838975] (-) TimerEvent: {}
+[4.942043] (-) TimerEvent: {}
+[5.042797] (-) TimerEvent: {}
+[5.148294] (-) TimerEvent: {}
+[5.264286] (-) TimerEvent: {}
+[5.389224] (-) TimerEvent: {}
+[5.491628] (-) TimerEvent: {}
+[5.592461] (-) TimerEvent: {}
+[5.695696] (-) TimerEvent: {}
+[5.829541] (-) TimerEvent: {}
+[5.945045] (-) TimerEvent: {}
+[6.048241] (-) TimerEvent: {}
+[6.161861] (-) TimerEvent: {}
+[6.266390] (-) TimerEvent: {}
+[6.382636] (-) TimerEvent: {}
+[6.491257] (-) TimerEvent: {}
+[6.600190] (-) TimerEvent: {}
+[6.702935] (-) TimerEvent: {}
+[6.781005] (yellow_ball_follower) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/yellow_ball_follower', 'build', '--build-base', '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build', 'install', '--record', '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mohamad', 'LC_TIME': 'ar_LB.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/mohamad', 'OLDPWD': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ar_LB.UTF-8', 'SYSTEMD_EXEC_PID': '2534', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'mohamad', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'mohamad', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohamad-VirtualBox:@/tmp/.ICE-unix/1824,unix/mohamad-VirtualBox:/tmp/.ICE-unix/1824', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_LB.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3d7ff0d2_c407_403c_a25d_9968fa9b6267', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_LB.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Q326S2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_LB.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_LB.UTF-8', 'LC_IDENTIFICATION': 'ar_LB.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower', 'TURTLEBOT3_MODEL': 'waffle', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages:/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_LB.UTF-8', 'LC_PAPER': 'ar_LB.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.853905] (-) TimerEvent: {}
+[6.962810] (-) TimerEvent: {}
+[7.084795] (-) TimerEvent: {}
+[7.187270] (-) TimerEvent: {}
+[7.293411] (-) TimerEvent: {}
+[7.396972] (-) TimerEvent: {}
+[7.500823] (-) TimerEvent: {}
+[7.604932] (-) TimerEvent: {}
+[7.736412] (-) TimerEvent: {}
+[7.869230] (yellow_ball_follower) StdoutLine: {'line': b'running egg_info\n'}
+[7.869622] (-) TimerEvent: {}
+[7.874299] (yellow_ball_follower) StdoutLine: {'line': b'writing ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/PKG-INFO\n'}
+[7.928453] (yellow_ball_follower) StdoutLine: {'line': b'writing dependency_links to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/dependency_links.txt\n'}
+[7.928688] (yellow_ball_follower) StdoutLine: {'line': b'writing entry points to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/entry_points.txt\n'}
+[7.928810] (yellow_ball_follower) StdoutLine: {'line': b'writing requirements to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/requires.txt\n'}
+[7.928892] (yellow_ball_follower) StdoutLine: {'line': b'writing top-level names to ../../build/yellow_ball_follower/yellow_ball_follower.egg-info/top_level.txt\n'}
+[7.932565] (yellow_ball_follower) StdoutLine: {'line': b"reading manifest file '../../build/yellow_ball_follower/yellow_ball_follower.egg-info/SOURCES.txt'\n"}
+[7.961014] (yellow_ball_follower) StdoutLine: {'line': b"writing manifest file '../../build/yellow_ball_follower/yellow_ball_follower.egg-info/SOURCES.txt'\n"}
+[7.967664] (yellow_ball_follower) StdoutLine: {'line': b'running build\n'}
+[7.967743] (yellow_ball_follower) StdoutLine: {'line': b'running build_py\n'}
+[7.969949] (-) TimerEvent: {}
+[8.056883] (yellow_ball_follower) StdoutLine: {'line': b'copying yellow_ball_follower/ball_tracker_node.py -> /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build/lib/yellow_ball_follower\n'}
+[8.057235] (yellow_ball_follower) StdoutLine: {'line': b'running install\n'}
+[8.057300] (yellow_ball_follower) StdoutLine: {'line': b'running install_lib\n'}
+[8.057387] (yellow_ball_follower) StdoutLine: {'line': b'copying /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/build/lib/yellow_ball_follower/ball_tracker_node.py -> /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower\n'}
+[8.057681] (yellow_ball_follower) StdoutLine: {'line': b'byte-compiling /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower/ball_tracker_node.py to ball_tracker_node.cpython-310.pyc\n'}
+[8.063558] (yellow_ball_follower) StdoutLine: {'line': b'running install_data\n'}
+[8.063721] (yellow_ball_follower) StdoutLine: {'line': b'creating /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/share/yellow_ball_follower/launch\n'}
+[8.063784] (yellow_ball_follower) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.071745] (-) TimerEvent: {}
+[8.074490] (yellow_ball_follower) StdoutLine: {'line': b"removing '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[8.162584] (yellow_ball_follower) StdoutLine: {'line': b'Copying ../../build/yellow_ball_follower/yellow_ball_follower.egg-info to /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/python3.10/site-packages/yellow_ball_follower-0.0.0-py3.10.egg-info\n'}
+[8.163228] (yellow_ball_follower) StdoutLine: {'line': b'running install_scripts\n'}
+[8.174978] (-) TimerEvent: {}
+[8.281104] (-) TimerEvent: {}
+[8.383874] (-) TimerEvent: {}
+[8.471609] (yellow_ball_follower) StdoutLine: {'line': b'Installing ball_tracker_node script to /home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install/yellow_ball_follower/lib/yellow_ball_follower\n'}
+[8.473071] (yellow_ball_follower) StdoutLine: {'line': b"writing list of installed files to '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build/yellow_ball_follower/install.log'\n"}
+[8.487502] (-) TimerEvent: {}
+[8.597701] (-) TimerEvent: {}
+[8.703709] (-) TimerEvent: {}
+[8.803596] (yellow_ball_follower) CommandEnded: {'returncode': 0}
+[8.805300] (-) TimerEvent: {}
+[8.912643] (-) TimerEvent: {}
+[9.013658] (-) TimerEvent: {}
+[9.121160] (-) TimerEvent: {}
+[9.177665] (yellow_ball_follower) JobEnded: {'identifier': 'yellow_ball_follower', 'rc': 0}
+[9.183774] (-) EventReactorShutdown: {}

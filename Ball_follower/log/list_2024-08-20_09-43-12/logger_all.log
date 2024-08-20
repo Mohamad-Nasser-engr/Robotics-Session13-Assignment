@@ -1,0 +1,84 @@
+[1.784s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower']
+[1.784s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x734ac7338fd0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x734ac74413f0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x734ac74413f0>>)
+[4.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[4.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[4.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[4.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[4.897s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[4.898s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower'
+[4.898s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['ignore', 'ignore_ament_install']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'ignore'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'ignore_ament_install'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['colcon_pkg']
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'colcon_pkg'
+[4.905s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['colcon_meta']
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'colcon_meta'
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['ros']
+[4.909s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'ros'
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['cmake', 'python']
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'cmake'
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'python'
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extensions ['python_setup_py']
+[4.980s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower) by extension 'python_setup_py'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build) by extensions ['ignore', 'ignore_ament_install']
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build) by extension 'ignore'
+[5.042s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/build) ignored
+[5.043s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install) by extensions ['ignore', 'ignore_ament_install']
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install) by extension 'ignore'
+[5.048s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/install) ignored
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['ignore', 'ignore_ament_install']
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'ignore'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'ignore_ament_install'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['colcon_pkg']
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'colcon_pkg'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['colcon_meta']
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'colcon_meta'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['ros']
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'ros'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['cmake', 'python']
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'cmake'
+[5.079s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'python'
+[5.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extensions ['python_setup_py']
+[5.080s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch) by extension 'python_setup_py'
+[5.119s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'ignore'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'ignore_ament_install'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['colcon_pkg']
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'colcon_pkg'
+[5.130s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['colcon_meta']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'colcon_meta'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['ros']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'ros'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['cmake', 'python']
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'cmake'
+[5.131s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'python'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extensions ['python_setup_py']
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/launch/__pycache__) by extension 'python_setup_py'
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/log) by extensions ['ignore', 'ignore_ament_install']
+[5.133s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/log) by extension 'ignore'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/log) ignored
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['ignore', 'ignore_ament_install']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'ignore'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'ignore_ament_install'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['colcon_pkg']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'colcon_pkg'
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['colcon_meta']
+[5.134s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'colcon_meta'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['ros']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'ros'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['cmake', 'python']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'cmake'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'python'
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extensions ['python_setup_py']
+[5.135s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src) by extension 'python_setup_py'
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extensions ['ignore', 'ignore_ament_install']
+[5.156s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extension 'ignore'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extension 'ignore_ament_install'
+[5.157s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extensions ['colcon_pkg']
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extension 'colcon_pkg'
+[5.161s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extensions ['colcon_meta']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extension 'colcon_meta'
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extensions ['ros']
+[5.162s] Level 1:colcon.colcon_core.package_identification:_identify(/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower) by extension 'ros'
+[5.172s] DEBUG:colcon.colcon_core.package_identification:Package '/home/mohamad/Inmind/Robotics-Session13-Assignment/Ball_follower/src/yellow_ball_follower' with type 'ros.ament_python' and name 'yellow_ball_follower'
+[5.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
